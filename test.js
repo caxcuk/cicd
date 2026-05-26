@@ -18,7 +18,7 @@ describe('UI Тесты', function() {
 
     it('Проверка заголовка', async function() {
         const title = await driver.getTitle();
-        expect(title).to.equal('Лабораторная CI/CD');
+        expect(title).to.equal('Правильное название');
     });
     it('Проверка наличия кнопки', async function() {
         const button = await driver.findElement(By.id('submitBtn'));
