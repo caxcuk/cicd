@@ -1,0 +1,15 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --timeout 15000"
+  },
+  "private": true,
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.6",
+    "selenium-webdriver": "^4.44.0"
+  }
+}
